@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="input_padding_top">16dp</dimen>
+    <dimen name="input_padding_bottom">0dp</dimen>
+    <dimen name="input_padding_right">16dp</dimen>
+    <dimen name="divider_padding_top">0dp</dimen>
+    <dimen name="divider_padding_bottom">0dp</dimen>
+</resources>

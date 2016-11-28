@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".modules.add.view.AddUserFragment"
+    android:paddingLeft="@dimen/text_margin"
+    android:paddingRight="@dimen/text_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surname_edit_text_hint"
+        android:layout_marginTop="@dimen/input_padding_top"
+        style="@style/UnderAddFieldLabel"
+        android:id="@+id/surnameLabel"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/divider_padding_top"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/surname_edit_text_hint"
+        android:inputType="textCapWords"
+        android:id="@+id/surnameEditText"
+        android:maxLength="20"
+        style="@style/AddFieldEditText"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_edit_text_hint"
+        android:layout_marginTop="@dimen/input_padding_top"
+        style="@style/UnderAddFieldLabel"
+        android:id="@+id/nameLabel"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/name_edit_text_hint"
+        android:inputType="textCapWords"
+        android:id="@+id/nameEditText"
+        android:layout_marginTop="@dimen/divider_padding_top"
+        android:maxLength="20"
+        style="@style/AddFieldEditText"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patronymic_edit_text_hint"
+        android:layout_marginTop="@dimen/input_padding_top"
+        style="@style/UnderAddFieldLabel"
+        android:id="@+id/patronymicLabel"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:lines="1"
+        android:hint="@string/patronymic_edit_text_hint"
+        android:inputType="textCapWords"
+        android:id="@+id/patronymicEditText"
+        android:maxLength="20"
+        style="@style/AddFieldEditText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/input_padding_right">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/series_edit_text_hint"
+                android:layout_marginTop="@dimen/input_padding_top"
+                style="@style/UnderAddFieldLabel"
+                android:id="@+id/seriesLabel"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:lines="1"
+                android:hint="@string/series_edit_text_hint"
+                android:inputType="textCapCharacters"
+                android:maxLength="3"
+                android:id="@+id/seriesEditText"
+                style="@style/AddFieldEditText"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/number_edit_text_hint"
+                android:layout_marginTop="@dimen/input_padding_top"
+                style="@style/UnderAddFieldLabel"
+                android:maxLength="10"
+                android:id="@+id/numberLabel"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:lines="1"
+                android:hint="@string/number_edit_text_hint"
+                android:inputType="number"
+                android:id="@+id/numberEditText"
+                style="@style/AddFieldEditText"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

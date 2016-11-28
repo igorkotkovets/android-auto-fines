@@ -1,0 +1,49 @@
+<resources>
+    <!-- Common -->
+
+    <!-- Drivers List -->
+    <string name="title_delete_driver">Удалить</string>
+    <string name="title_no_data">Список автомобилей пуст</string>
+
+    <!-- Add driver screen -->
+    <string name="action_save">Сохранить</string>
+
+    <!-- Menus -->
+    <string name="app_name">Мои Штрафы</string>
+    <string name="title_drivers">Водители</string>
+    <string name="title_new_driver">Добавить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_add_user">Добавить водителя</string>
+    <string name="bt_delete_driver">Удалить</string>
+
+    <!-- Add Module -->
+    <string name="name_edit_text_hint">Имя</string>
+    <string name="patronymic_edit_text_hint">Отчество</string>
+    <string name="surname_edit_text_hint">Фамилия</string>
+    <string name="series_edit_text_hint">Серия</string>
+    <string name="number_edit_text_hint">Номер</string>
+    <string name="title_activity_fines_list">Удостоверения</string>
+    <string name="error_input_data">Ошибка ввода данных</string>
+    <string name="error_invalid_name">Проверьте введенное имя</string>
+    <string name="error_invalid_surname">Проверьте введенную фамилию</string>
+    <string name="error_invalid_patronymic">Проверьте введенное отчество</string>
+    <string name="error_invalid_series">Проверьте введенную серию техпаспорта</string>
+    <string name="error_invalid_number">Проверьте введенный номер техпасторта</string>
+
+    <!-- Widget display items -->
+    <string name="response_no_any_error_result">Нет информации</string>
+    <string name="response_no_any_message_result">Нет информации</string>
+
+    <string name="bt_save_new_user">Сохранить</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_users_list">Удостоверения</string>
+    <string name="title_activity_widget_config">Выбрать водителя</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+
+    <!-- Network errors -->
+    <string name="network_data_loading_error">Не удалось выполнить запрос. Проверьте соединение с интернетом</string>
+
+</resources>
