@@ -5,10 +5,7 @@ This application was depeloped <del>to get expirience into Android application d
 
 Used technologies:
 
--Android SDK;
-
--Dagger2;
-
--VIPER principles;
-
--OkHttp;
+* Android SDK;
+* Dagger2;
+* VIPER principles;
+* OkHttp;
